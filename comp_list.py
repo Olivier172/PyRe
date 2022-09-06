@@ -19,6 +19,21 @@ def main():
     ls2=[ltr for ltr in list_with_letters if ltr not in "abcd"] #filter out the letters abcd
     print(ls2)
 
+    #filtering words
+    list_with_words=["just","trying","this","out"]
+    ls3=[wrd for wrd in list_with_words if wrd != "out"]
+    print(ls3)
+
+    #only words in filter set
+    list_with_other_words=["monday","tuesday","wednesday","thursday","friday","saterday","sunday"]
+    filter=["monday","wednesday","friday"]
+    ls4=[wrd for wrd in list_with_other_words if wrd in filter]
+    print(ls4)
+
+    #creating a list with a lot of numbers fast
+    ls5=[x for x in range(0,100)]
+    print(ls5)
+
 
 
 #calling the main function
