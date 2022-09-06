@@ -24,8 +24,6 @@ def main():
     fillMatrix(matrix) #filling the matrix with a chosen value
     printMatrix(matrix) #printing the matrix to the terminal
 
-main()
-
 #calling the main function
 main()
 #adding something
